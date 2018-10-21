@@ -16,6 +16,20 @@
 	</WorkGiverDef>
 
 	<WorkGiverDef>
+		<defName>HaulUrgentlyRefill</defName>
+		<label>refill zones urgently</label>
+		<giverClass>AllowTool.WorkGiver_HaulUrgentlyRefill</giverClass>
+		<workType>HaulingUrgent</workType>
+		<verb>refilling urgently</verb>
+		<gerund>refilling urgently</gerund>
+		<priorityInType>55</priorityInType>
+		<directOrderable>false</directOrderable>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
 		<defName>FinishOff</defName>
 		<label>finish off creature</label>
 		<giverClass>AllowTool.WorkGiver_FinishOff</giverClass>
